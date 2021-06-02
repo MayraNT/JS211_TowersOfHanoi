@@ -78,7 +78,7 @@ const checkForWin = () => {
 const towersOfHanoi = (startStack, endStack) => {
   movePiece(startStack, endStack);
   if (checkForWin()) {
-    alert('You won!');
+    console.log('Yay! You won the game!!!');
   }
 };
 
