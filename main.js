@@ -50,8 +50,8 @@ const isLegal = (startStack, endStack) => {
       // return false
     // else
       // return true 
-  let moveItem = stacks[startStack] - 1;
-  let lastItem = stacks[endStack] - 1;
+  let moveItem = stacks[startStack].slice(-1)[0];
+  let lastItem = stacks[endStack].slice(-1)[0];
 
   if (stacks[endStack].length === 0) {
     return true;
