@@ -1,8 +1,10 @@
 [data-row] {
   display: flex;
+  /* flex-direction: column-reverse; */
   justify-content: flex-start;
   align-items: center;
   height: 34px;
+  /* width: 34px; */
   margin: 25px;
   border: 1px solid lightgray;
 }
@@ -60,3 +62,10 @@
   font-size: 50px;
   text-align: center;
 }
+
+
+/* main {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+} */
